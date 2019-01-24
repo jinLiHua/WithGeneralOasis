@@ -1,0 +1,20 @@
+$t_c:center;
+.my_table{
+    tr{
+      height:55px;
+      box-sizing: border-box;
+      text-align: $t_c;
+    }
+    th{
+      background-color: #F5FCF5;
+      color: #333;
+      text-align: $t_c;
+    }
+    td{
+      border-color: #f0f0f0;
+    }
+}
+table,.el-table{
+  font-size: 16px!important;
+  @extend.my_table
+}
